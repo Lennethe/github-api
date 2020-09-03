@@ -16,7 +16,7 @@ public class HomeController extends Controller {
      */
     public Result index() {
         System.out.println("aaaaaa");
-        return ok(views.html.index.render());
+        return ok(views.html.home.index.render());
     }
 
 }
